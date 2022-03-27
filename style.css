@@ -1,0 +1,21 @@
+h3
+{
+font-size: 25px !important;    
+}
+
+.btn-success:hover
+{
+background-color: greenyellow;    
+}
+
+canvas{
+    animation-name: FM;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes FM{
+    from {box-shadow: 1px 1px 38px   pink;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
